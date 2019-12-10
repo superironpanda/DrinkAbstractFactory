@@ -7,6 +7,9 @@ public class BottleFactory extends DrinkingAbstractFactory {
         else if(Bottle == "vodka"){
             return new Vodka();
         }
+        else if(Bottle == "cokeCola"){
+            return new CokeCola();
+        }
         else{
             return null;
         }

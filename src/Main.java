@@ -9,5 +9,8 @@ public class Main {
         person.drink();
         bottle.getDrink();
 
+        Bottle coke = bottleType.getBottle("cokeCola");
+        person.drink();
+        coke.getDrink();
     }
 }
